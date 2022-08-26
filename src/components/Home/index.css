@@ -1,0 +1,162 @@
+@media screen and (max-width: 576px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 90%;
+  }
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 90%;
+  }
+
+  .heading {
+    font-size: 40px;
+    color: #475569;
+    font-family: 'roboto';
+  }
+  .home-mobile-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .home-para {
+    font-size: 16px;
+    font-family: 'roboto';
+    text-align: center;
+    color: #64748b;
+  }
+  .home-btn {
+    background-color: #0967d2;
+    border-width: 0;
+    font-size: 18px;
+    border-radius: 6px;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    margin-top: 48px;
+  }
+  .home-dsk-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 90%;
+  }
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 90%;
+  }
+
+  .heading {
+    font-size: 40px;
+    color: #475569;
+    font-family: 'roboto';
+  }
+  .home-mobile-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .home-para {
+    font-size: 16px;
+    font-family: 'roboto';
+    text-align: center;
+    color: #64748b;
+  }
+  .home-btn {
+    background-color: #0967d2;
+    border-width: 0;
+    font-size: 18px;
+    border-radius: 6px;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    margin-top: 48px;
+  }
+  .home-dsk-img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    width: 80%;
+    max-width: 1110px;
+  }
+
+  .home-mobile-img {
+    display: none;
+  }
+  .heading {
+    font-size: 52px;
+    color: #475569;
+    font-family: 'roboto';
+    order: 0;
+  }
+  .home-dsk-img {
+    width: 500px;
+    height: 500px;
+    order: 1;
+  }
+
+  .home-para {
+    font-size: 20px;
+    font-family: 'roboto';
+    width: 800px;
+    color: #64748b;
+    /* text-align: center; */
+  }
+  .home-btn {
+    background-color: #0967d2;
+    border-width: 0;
+    font-size: 18px;
+    border-radius: 6px;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    margin-top: 48px;
+  }
+}

@@ -1,0 +1,202 @@
+/* 
+.logo {
+  width: 180px;
+  margin: 30px;
+} */
+
+/* .input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+} */
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    background-color: #ffffff;
+  }
+
+  .login-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    width: 150px;
+    margin: 20px;
+  }
+
+  .login-img {
+    width: 350px;
+    margin-left: 20%;
+  }
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20px;
+    background-color: #ffffff;
+  }
+  .username-input-filed {
+    font-size: 14px;
+    height: 25px;
+    border: 1px solid #d7dfe9;
+
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    font-family: 'roboto';
+  }
+
+  .password-input-filed {
+    font-size: 14px;
+    height: 25px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    font-family: 'roboto';
+    font-weight: 600;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    color: #475569;
+    font-weight: 600;
+  }
+  .login-button {
+    background-color: #0967d2;
+    padding: 8px;
+    font-size: 20px;
+    color: #fff;
+    border-style: none;
+    margin-top: 30px;
+    border-radius: 6px;
+  }
+  .logo-desk {
+    display: none;
+  }
+  .error-message {
+    align-self: start;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 16px;
+    color: #ff0b37;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    margin: 10%;
+  }
+  .login-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    margin-left: 20%;
+  }
+  .logo {
+    display: none;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    color: #64748b;
+    font-weight: 600;
+  }
+
+  .logo-desk {
+    width: 150px;
+  }
+  .login-img {
+    width: 500px;
+    /* height: 400px; */
+    align-self: flex-start;
+  }
+  .form-container {
+    width: 350px;
+    /* flex-shrink: 0; */
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    padding: 64px 48px 64px 48px;
+    margin: 20px;
+  }
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20px;
+    background-color: #ffffff;
+  }
+  .username-input-filed {
+    font-size: 14px;
+    height: 25px;
+    border: 1px solid #d7dfe9;
+
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    font-family: 'roboto';
+  }
+
+  .password-input-filed {
+    font-size: 14px;
+    height: 25px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    font-family: 'roboto';
+    font-weight: 600;
+  }
+  .login-button {
+    background-color: #0967d2;
+    padding: 8px;
+    font-size: 20px;
+    color: #fff;
+    border-style: none;
+    margin-top: 30px;
+    border-radius: 6px;
+  }
+  .error-message {
+    align-self: start;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 16px;
+    color: #ff0b37;
+  }
+}

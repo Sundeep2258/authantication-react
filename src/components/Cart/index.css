@@ -1,0 +1,17 @@
+.cart {
+  width: 180px;
+  color: blue;
+}
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 80px;
+  color: #475569;
+  font-family: 'roboto';
+}
